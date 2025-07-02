@@ -1,0 +1,102 @@
+body {
+    font-family: "Playfair Display";
+    color: #333333;
+}
+
+.contains_everything {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main_heading {
+    text-align: center;
+    font-weight: normal;
+    font-size: 52px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    color: #5273c6;
+}
+
+.contains_left_and_right {
+    display: flex;
+}
+
+a {
+    color: #333333;
+}
+
+
+.contains_left {
+    width: 255px;
+}
+.profile_photo {
+    width: 194px;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+.contact_heading {
+    font-size: 20px;
+    margin-top: 62px;
+    margin-bottom: 15px;
+    font-family: "DM Sans";
+}
+.contact_info {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.linkedin {
+    font-size: 18px;
+    font-family: "DM Sans";
+}
+.github {
+    font-size: 18px;
+    font-family: "DM Sans";
+}
+
+
+.contains_right {
+    width: 745px;
+}
+.heading_2 {
+    font-size: 27px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 31px;
+    color: #5273c6;
+}
+.heading_3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-family: "DM Sans";
+}
+.heading_3_extra_margin {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-family: "DM Sans";
+}
+.subtext {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-family: "DM Sans";
+}
+.paragraph {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 62px;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: "DM Sans";
+}
+.sub_paragraph {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 31px;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: "DM Sans";
+}
