@@ -19,6 +19,7 @@ body {
 
 .contains_left_and_right {
     display: flex;
+    flex-wrap: wrap;
 }
 
 a {
@@ -27,7 +28,10 @@ a {
 
 
 .contains_left {
+    width: 100%;
     width: 255px;
+    flex: 1;
+    margin-bottom: 30px;
 }
 .profile_photo {
     width: 194px;
@@ -55,7 +59,8 @@ a {
 
 
 .contains_right {
-    width: 745px;
+    flex: 2;
+    width: 100%;
 }
 .heading_2 {
     font-size: 27px;
@@ -99,4 +104,33 @@ a {
     line-height: 1.4;
     text-align: justify;
     font-family: "DM Sans";
+}
+
+@media screen and (max-width: 768px) {
+    .main_heading {
+        font-size: 36px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .profile_photo {
+        margin-top: 0px;
+    }
+    .contains_left_and_right {
+        flex-direction: column;
+    }
+    .contains_left {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .contact_heading {
+        margin-top: 48px;
+    }
+    .contains_right {
+        width: 100%;
+        max-width: 100%;
+    }
+    .paragraph, .sub_paragraph {
+        font-size: 16px;
+    }
 }
