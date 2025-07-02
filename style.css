@@ -29,7 +29,7 @@ a {
 
 .contains_left {
     width: 100%;
-    width: 255px;
+    max-width: 255px;
     flex: 1;
     margin-bottom: 30px;
 }
